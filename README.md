@@ -10,7 +10,7 @@ The website presents a Java training course, recommended learning resources, cou
 - Navigation links to learning playlists
 - Course overview section
 - Course-level table
-- Registration form
+- Registration form preview (no actual enrollment or data submission)
 - Custom styling with CSS
 - Images and Java branding assets
 - Responsive viewport configuration
@@ -56,7 +56,7 @@ No installation is required.
 - Semantic HTML structure
 - Navigation and external links
 - Tables
-- Forms and input elements
+- Forms, client-side validation and accessible status messages
 - Images and favicons
 - CSS styling
 - Organizing website assets into folders
@@ -68,3 +68,7 @@ This project was created as part of an introductory computing course to practice
 ---
 
 **Author:** Said Ahmed Abu-Fouda
+
+## Privacy note
+
+The registration UI is **a demo**, not a live service: submitting it validates fields in the browser, shows a message, and resets the form. No data is saved or transmitted. Real enrollment requires a backend and a published privacy policy.
