@@ -1,0 +1,13 @@
+name: Static website checks
+on:
+  push:
+  pull_request:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: JavaScript syntax
+        run: node --check script.js
+      - name: HTML smoke checks
+        run: python -m unittest discover -s tests -v
